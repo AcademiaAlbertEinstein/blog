@@ -1,0 +1,23 @@
+.nav-mystyle{
+  background: #4B004C;
+}
+
+.logo-mystyle{
+  font-family: Oleo Script;
+}
+
+.banner-mystyle{
+  font-family: Oleo Script;
+  color: #4B004C;
+  font-size: 5rem;
+}
+.land-mystyle{
+  background: #F0B9CF;
+}
+
+.btn, .btn-large{
+  background: #C70452;
+}
+.btn:hover, .btn-large:hover{
+  background-color: #E63C80;
+}
