@@ -1,3 +1,6 @@
+html, body, .block{
+  height: 100%;
+}
 .nav-mystyle{
   background: #4B004C;
 }
@@ -21,3 +24,20 @@
 .btn:hover, .btn-large:hover{
   background-color: #E63C80;
 }
+footer.page-footer{
+  background: #571B3C;
+}
+footer.page-footer .footer-copyright{
+  background: #9D2053;
+}
+.pin-top {
+   position: relative;
+ }
+
+ .pin-bottom {
+   position: relative;
+ }
+ 
+ .pinned {
+   position: fixed !important;
+ }

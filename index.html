@@ -10,22 +10,24 @@
   <link rel="stylesheet" href="css/mystyle.css">
 </head>
 <body>
-  <nav class="lighten-1 nav-mystyle" role="navigation">
-    <div class="nav-wrapper container "><a id="logo-container" href="#" class="brand-logo logo-mystyle">"Albert Einstein"</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#contactenos">Contactenos</a></li>
-      </ul>
+  <div class="navbar-fixed">
+    <nav class="nav-mystyle" role="navigation" data-target="purple">
+      <div class="nav-wrapper container "><a id="logo-container" href="#" class="brand-logo logo-mystyle">"Albert Einstein"</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contactenos">Contactenos</a></li>
+        </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#contactenos">Contactenos</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contactenos">Contactenos</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
   <div class="section no-pad-bot land-mystyle" id="index-banner">
     <div class="container ">
       <br><br>
@@ -81,15 +83,33 @@
       </div>
     </div>
   </div>
-  <footer class="page-footer">
-    <div class="footer-copyright">
+  <footer class="page-footer ">
+    <div class="container ">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Academia "Albert Einstein"</h5>
+          <p class="grey-text text-lighten-4">"Donde el trabajo y la perseverancia es mas fuerte que el Acero"</p>
+        </div>
+        <div class="col l4 offset-12 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#"><i class="fa fa-twitter"></i>Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright ">
       <div class="container">
-      Made by <a class="" href="#">NikitaCanuta</a>
+        © 2016 -2017 Nikita Canuta
       </div>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/myjquery.js"></script>
   </body>
 </html>
