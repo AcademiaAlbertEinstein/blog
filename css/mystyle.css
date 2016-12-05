@@ -11,8 +11,14 @@ html, body, .block{
 
 .banner-mystyle{
   font-family: Oleo Script;
-  color: #4B004C;
   font-size: 5rem;
+  -webkit-text-fill-color: #4B004C;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-stroke-width: 0.05em;
+}
+.ourlogo-mystyle{
+  color: #ffffff;
+  font-weight: bold;
 }
 .land-mystyle{
   background: #F0B9CF;
@@ -43,5 +49,5 @@ footer.page-footer .footer-copyright{
  }
 
  .img-mystyle{
-  
+
  }
