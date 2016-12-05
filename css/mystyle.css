@@ -37,7 +37,11 @@ footer.page-footer .footer-copyright{
  .pin-bottom {
    position: relative;
  }
- 
+
  .pinned {
    position: fixed !important;
+ }
+
+ .img-mystyle{
+  
  }
